@@ -1,0 +1,102 @@
+.workcontainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: PPRadioGroteskBlack, sans-serif;
+
+    .backToProjects{
+        width: 70%;
+        padding-top: 200px;
+        font-family: PPRadioGrotesk, sans-serif;
+
+        p{
+            font-style: italic;
+            text-decoration: underline;
+            text-decoration: underline;
+        }
+
+        a{
+            color: black;
+        }
+
+        @media all and (max-width: 480px) {
+            width: 80%;
+            padding-top: 50px;
+        }
+    }
+
+    .backToProjectsEnd{
+        width: 70%;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        font-family: PPRadioGrotesk, sans-serif;
+
+        p{
+            font-size: 2rem;
+            font-style: italic;
+            text-decoration: underline;
+            text-decoration: underline;
+
+            a{
+                color: black;
+            }
+        }
+
+        @media all and (max-width: 480px) {
+            width: 80%;
+            padding-top: 50px;
+            padding-bottom: 25px;
+        }
+    }
+
+    .project {
+        width: 70%;
+        margin: 25px;
+        
+        //top: 40%;
+
+        .projectDescriction {
+            margin-bottom: 15px;
+
+            .aboutProject {
+                font-size: 1.4rem;
+                font-family: PPRadioGrotesk, sans-serif;
+            }
+
+            .projectTitle {
+                font-size: 3rem;
+                margin-top: 10px;
+            }
+        }
+
+        .projectImage {
+            width: 100%;
+            height: 620px;
+            object-fit: cover;
+            border-radius: 1.5rem;
+            padding-top: 15px;
+        }
+
+        .challenge {
+            margin-top: 30px;
+
+            .aboutchallenge {
+                font-size: 1.3rem;
+                font-family: PPRadioGrotesk, sans-serif;
+            }
+
+            .challengeTitle {
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+                padding-top: 50px;
+            }
+        }
+
+        @media all and (max-width: 480px) {
+            width: 80%;
+            margin: 10px;
+        }
+    }
+}

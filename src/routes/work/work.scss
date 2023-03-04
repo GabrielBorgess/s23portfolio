@@ -1,0 +1,80 @@
+.container {
+    justify-content: center;
+    flex-direction: column;
+
+
+    .title {
+        font-size: 5rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family: 'Sygma', sans-serif;
+        letter-spacing: 3px;
+
+        @media all and (max-width: 480px) {
+            font-size: 4rem;
+        }
+    }
+
+    .works {
+
+        width: 80%;
+        text-align: center;
+        text-decoration: none;
+
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .workHolder {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            margin: 40px;
+            
+
+            h1 {
+                font-size: 4rem;
+                flex: 6;
+                text-align: left
+            }
+
+            p {
+                flex: 1;
+            }
+
+            .date {
+                flex: 2;
+                font-size: 0.8rem;
+            }
+
+            @media all and (max-width: 480px) {
+                margin: 20px;
+
+                h1{
+                    font-size: 1.7rem;
+                    flex: 6;
+                    text-align: left 
+                }
+
+                p {
+                    font-size: 0.8rem;
+                }
+
+                .date {
+                    flex: 2;
+                    font-size: 0.6rem;
+                }
+            }
+
+            @media all and (min-width: 480px) and (max-width: 1000px) {
+                h1{
+                    font-size: 2.5rem;
+                    flex: 6;
+                    text-align: left 
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.cornerElements {
+    .row {
+        width: 100%;
+
+        .rowElement {
+            position: absolute;
+            z-index: 2;
+            margin: 40px;
+
+            @media all and (max-width: 480px) {
+                margin: 17px;
+            }
+        }
+
+        .top-left {
+            top: 0;
+            left: 0;
+            text-transform: uppercase;
+            line-height: 25px;
+            font-size: 1.1rem;
+
+            @media all and (max-width: 480px) {
+                font-size: 0.9rem;
+                line-height: 18px;
+            }
+            
+        }
+
+        .top-right {
+            top: 0;
+            right: 0;
+            display: flex;
+            gap: 0.8rem;
+            text-align: right;
+
+            .number{
+                font-size: 1.3rem;
+            }
+
+            .page {
+                font-size: 1.6rem;
+                padding-top: 7px;
+                font-family: 'Sygma', sans-serif;
+            }
+
+            .bar {
+                width: 10px;
+                height: 64px;
+                background-color: black;
+            }
+
+            @media all and (max-width: 480px) {
+                .number{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .bottom-left {
+            bottom: 0;
+            left: 0;
+            font-size: 1.4rem;
+
+            @media all and (max-width: 480px) {
+                font-size: 1rem;
+            }
+            
+        }
+
+        .bottom-right {
+            bottom: 0;
+            right: 0;
+
+
+            li {
+                list-style: none;
+                text-align: right;
+                margin-top: 18px;
+                ;
+                font-size: 0.95rem;
+
+                @media all and (max-width: 480px) {
+                    font-size: 0.8rem;
+                    margin-top: 13px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: rgb(78, 78, 78);
+                    text-transform: uppercase;
+                }
+
+                .selected{
+                    color: black;
+                }
+            }
+        }
+    }
+}

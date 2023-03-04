@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "PPRadioGrotesk";
+    src: url(./fonts/PPRadioGrotesk-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "PPRadioGroteskBlack";
+    src: url(./fonts/PPRadioGrotesk-Black.otf) format('opentype');
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    border-radius: 100%;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0;
+  }

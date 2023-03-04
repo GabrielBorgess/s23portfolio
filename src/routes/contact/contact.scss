@@ -1,0 +1,76 @@
+.contactContainer{    
+    width: 90%;
+    align-items: center;
+    
+
+    h1{
+        font-size: 8rem;
+        margin: 20px;
+        line-height: 90%;
+        font-family: PPRadioGrotesk;
+    }
+
+    .content{
+        margin: 20px;
+        font-weight: 500;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        font-size: 1.7rem;
+        font-family: PPRadioGrotesk;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        margin: 20px;
+        font-size: 1.5rem;
+
+        p{
+            a{
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+
+    @media all and (max-width: 750px) {
+        h1{
+            font-size: 4rem;  
+            margin: 10px;
+        }
+
+        .content{
+            margin: 10px;
+            padding-bottom: 15px;
+            font-size: 1.3rem;
+            font-family: PPRadioGrotesk;
+        }
+
+        .links{
+            gap: 0.5rem;
+            margin: 10px;
+            font-size: 1.5rem;
+        }
+    }
+
+    @media all and (min-width: 750px) and (max-width: 1264px) {
+        h1{
+            font-size: 6rem;  
+            margin: 12px;
+        }
+
+        .content{
+            margin: 12px;
+            padding-bottom: 20px;
+            font-size: 1.5rem;
+            font-family: PPRadioGrotesk;
+        }
+
+        .links{
+            gap: 0.5rem;
+            margin: 12px;
+            font-size: 1.7rem;
+        }
+    }
+}

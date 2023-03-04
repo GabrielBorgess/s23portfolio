@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    .backgroundColor {
+        background-color: #f0ecec;
+        //background-color: #191919;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        overflow: hidden;
+        font-family: PPRadioGroteskBlack, sans-serif;
+        //color: #F3E6D3;
+
+
+        .changeLanguage {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 40px;
+            text-align: center;
+            z-index: -1;
+
+            @media all and (max-width: 480px) {
+                margin: 17px;
+            }
+
+            .changeLanguageBtn {
+                border: none;
+                margin-left: 5px;
+                margin-right: 5px;
+                font-family: PPRadioGrotesk, sans-serif;
+                letter-spacing: 1px;
+                text-decoration: none;
+                cursor: pointer;
+
+                @media all and (max-width: 480px) {
+                    font-size: 0.6rem;
+                }
+            }
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            
+
+            h1 {
+                text-transform: uppercase;
+            }
+
+            .presenting {
+                padding-bottom: 35px;
+
+                @media all and (max-width: 480px) {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .name {
+                font-size: 120px;
+                letter-spacing: 3px;
+                text-align: center;
+                font-family: 'Sygma', sans-serif;                
+
+                @media all and (max-width: 480px) {
+                    font-size: 4rem;
+                }
+
+                @media all and (min-width: 480px) and (max-width: 768px) {
+                    font-size: 6rem;
+                }
+            }
+
+            .about {
+                font-weight: 500;
+                font-size: 2rem;
+                max-width: 40%;
+                text-align: left;
+                font-family: PPRadioGrotesk, sans-serif;
+
+                @media all and (max-width: 480px) {
+                    font-size: 1rem;
+                    max-width: 50%;
+                }
+
+                @media all and (min-width: 480px) and (max-width: 768px) {
+                    font-size: 1.4rem;
+                    max-width: 50%;
+                }
+            }
+        }
+
+        .snake{
+            position: fixed;
+            top: 0;
+            z-index: -9999;
+            left: 46vw;
+            opacity: 0.7;
+        }
+    }
+}
