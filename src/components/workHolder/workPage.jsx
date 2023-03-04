@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import './workPage.scss'
 import CornerElement from '../cornerElements/cornerElement';
-import circleCursor from '../../components/Jsanimations/circleCursor';
+import circleCursor from '../JSanimations/circleCursor';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
