@@ -34,9 +34,29 @@
         }
     }
 
-    @media all and (max-width: 750px) {
+    @media all and (max-width: 350px) {
         h1{
-            font-size: 4rem;  
+            font-size: 2rem;  
+            margin: 10px;
+        }
+
+        .content{
+            margin: 10px;
+            padding-bottom: 15px;
+            font-size: 1rem;
+            font-family: PPRadioGrotesk;
+        }
+
+        .links{
+            gap: 0.5rem;
+            margin: 10px;
+            font-size: 1rem;
+        }
+    }
+
+    @media all and (min-width: 350px) and (max-width: 750px) {
+        h1{
+            font-size: 3rem;  
             margin: 10px;
         }
 
@@ -54,7 +74,7 @@
         }
     }
 
-    @media all and (min-width: 750px) and (max-width: 1264px) {
+    @media all and (min-width: 750px) and (max-width: 1280px) {
         h1{
             font-size: 6rem;  
             margin: 12px;
