@@ -5,7 +5,6 @@ import Work from './routes/work/work';
 import Root from './routes/root/root';
 import Contact from './routes/contact/contact'
 import Agora from "./routes/workPage/agora";
-import Figure from './3delements/figure';
 
 //framework
 import { Routes, Route, useLocation } from "react-router-dom";
@@ -33,7 +32,6 @@ function App() {
           <Route path="work" element={<Work />} />
           <Route path="work/agora" element={<Agora />} />
           <Route path='contact' element={<Contact />} />
-          <Route path='test3d' element={<Figure />} />
           {/* 404 page */}
           <Route path="*" element={<Work />} />
         </Routes>
