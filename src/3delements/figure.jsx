@@ -1,15 +1,15 @@
 import React, { useRef } from 'react'
-import './figure.scss'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
+import './figure.scss'
 
 const figure = () => {
 
     const Scene = (props) => {
 
 
-        const { nodes, materials } = useGLTF('/scene.gltf')
+        const { nodes } = useGLTF('/scene.gltf')
 
         const ref = useRef()
         useFrame((state) => {
