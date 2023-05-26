@@ -7,9 +7,9 @@ import './work.scss'
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { gsap } from "gsap";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
-const work = () => {
+const work = ({ isVisible }) => {
 
     useEffect(() => {
 

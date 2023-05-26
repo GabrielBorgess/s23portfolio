@@ -25,7 +25,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <AnimatePresence mode="wSait">
+    <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           {/* Routes */}
           <Route index element={<Root />} />
@@ -35,7 +35,7 @@ function App() {
           {/* 404 page */}
           <Route path="*" element={<Work />} />
         </Routes>
-      </AnimatePresence>
+    </AnimatePresence>
   )
 }
 
