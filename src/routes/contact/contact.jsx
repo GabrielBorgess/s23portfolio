@@ -28,10 +28,10 @@ const contact = () => {
             And if you`re lazy and don´t want to scroll to get back to the top,i feel you.</p>
 
           <div className="links">
-            <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover}href="">Linkedin</a></p>
-            <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover}href="">Instagram</a></p>
-            <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover} href="">Twitter</a></p>
-            <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover} href="">Email</a></p>
+            <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover}href="https://www.linkedin.com/in/gabriel-borges-0099251a1/">Linkedin</a></p>
+            <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover}href="https://www.instagram.com/ogabrielborg/">Instagram</a></p>
+            <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover} href="https://github.com/GabrielBorgess">Github</a></p>
+            <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover} href="mailto:staffgabs@gmail.com">Email</a></p>
           </div>
         </div>
         <CornerElement number={'02'} name={t('CE.contact')} />

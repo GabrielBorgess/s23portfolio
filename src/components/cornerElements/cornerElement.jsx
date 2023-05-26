@@ -29,7 +29,7 @@ const cornerElement = (props) => {
     return (
         <div className="cornerElements">
             <div className="row">
-                <div className="rowElement top-left">Porfolio <br />Resume</div>
+                <div className="rowElement top-left">Porfolio <br /> <span> <a href="../../../public/CV_GABRIEL_BORGES.pdf" download>Resume</a></span></div>
                 <div className="rowElement top-right">
                     <div className="pagetitle">
                         <div className="number">{props.number}</div>

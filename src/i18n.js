@@ -36,7 +36,7 @@ i18n
                 translation: {
                     presenting: {
                         1: "Eai! Me chamo",
-                        2: 'Um programador de Brasília que gosta de dar vida a coisas bonitas e ouvir pagode enquanto faz isso.'
+                        2: `Um programador de Brasília que gosta de dar vida a coisas bonitas e ouvir enquanto faz isso.`
                     },
                     contact: {
                         1: 'Vamos criar algo incrível juntos!',
