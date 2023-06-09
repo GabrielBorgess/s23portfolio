@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './root.scss'
 import Figure from '../../3delements/figure';
 import CornerElement from '../../components/cornerElements/cornerElement';
@@ -17,14 +17,15 @@ const root = () => {
   };
 
   useEffect(() => {
-
     // -- ANIMATION CODE HERE --
     gsap.fromTo('.main',
       { autoAlpha: 0, y: -30 },
-      { y: 0, autoAlpha: 1, duration: 1.2, delay: 0.4 });
+      { y: 0, autoAlpha: 1, duration: 1.2,delay: 0.4 });
       
       circleCursor();
   });
+
+  //const [videoBg, setVideoBg] = useState(false)
 
   return (
     <div className='backgroundColor'>
@@ -53,6 +54,11 @@ const root = () => {
             <Figure />
           </div>
         </div>
+        {/* <div className={`pagode__secret ${videoBg ? 'active' : 'inactive'}`}>
+          <video autoPlay loop muted>
+            <source src="../../../public/pagodinT - Compressedp.mp4" type="video/mp4"/>
+          </video>
+        </div> */}
       </motion.div>
 
     </div>
