@@ -2,6 +2,7 @@
     width: 90%;
     align-items: center;
     justify-content: center;
+    z-index: -1;
 
     h1{
         font-size: 8rem;
@@ -19,6 +20,10 @@
         padding-bottom: 25px;
         font-size: 1.7rem;
         font-family: PPRadioGrotesk;
+
+        a{
+            color: black;
+        }
     }
 
     .links{

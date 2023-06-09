@@ -4,6 +4,7 @@ import CornerElement from '../../components/cornerElements/cornerElement'
 import circleCursor from '../../components/JSanimations/circleCursor';
 import { linkHover, leaveLinkHover } from '../../components/JSanimations/linkHoverAnimation'
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
 const contact = () => {
@@ -24,8 +25,7 @@ const contact = () => {
         <div className="ball"></div>
         <div className="contactContainer">
           <h1 className='contactTitle'>{t('contact.1')}</h1>
-          <p className='content'>If anything of those sounds intriguing, just feel free to reach out to me. You are welcome.
-            And if you`re lazy and don´t want to scroll to get back to the top,i feel you.</p>
+          <p className='content'>{t('contact.2')} <Link to={'/'}>{t('contact.3')}</Link></p>
 
           <div className="links">
             <p><a onMouseEnter={linkHover} onMouseLeave={leaveLinkHover}href="https://www.linkedin.com/in/gabriel-borges-0099251a1/" target="_blank">Linkedin</a></p>

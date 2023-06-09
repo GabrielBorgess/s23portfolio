@@ -22,7 +22,9 @@ i18n
                         2: 'A developer from Brasília who likes to bring beautiful stuff to life, and listen to pagode while doing it'
                     },
                     contact: {
-                        1: "let's create something amazing together! say hi"
+                        1: "let's create something amazing together! say hi",
+                        2: "If any of these ideas capture your attention, don't hesitate to get in touch. I'm here to assist you. And if you're feeling a bit lazy and don't want to navigate back to the homepage,",
+                        3: 'i feel you.'
                     },
                     CE:{
                         about: 'about',
@@ -40,7 +42,8 @@ i18n
                     },
                     contact: {
                         1: 'Vamos criar algo incrível juntos!',
-                        2: ''
+                        2: 'Se alguma dessas ideias chamou a sua atenção, não hesite em entrar em contato. Estou aqui para ajudar você. E se você estiver com um pouco de preguiça para voltar na home,',
+                        3: 'eu te entendo.'
                     },
                     CE:{
                         about: 'Sobre',

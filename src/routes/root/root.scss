@@ -39,6 +39,8 @@
                 letter-spacing: 1px;
                 text-decoration: none;
                 cursor: pointer;
+                user-select: none;
+                
 
                 @media all and (max-width: 480px) {
                     font-size: 0.6rem;

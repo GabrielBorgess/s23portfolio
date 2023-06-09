@@ -26,8 +26,6 @@ const root = () => {
       circleCursor();
   });
 
-  //hi, i'm
-  //A developer from Brasília who likes to bring beautiful stuff to life, and listen to pagode while doing it.
   return (
     <div className='backgroundColor'>
       <motion.div id='mainPage' className="container"
