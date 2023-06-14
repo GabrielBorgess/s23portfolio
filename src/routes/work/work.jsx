@@ -34,7 +34,7 @@ const work = ({ isVisible }) => {
                 <div className="works">
                     <hr />
                     <div className="singleWork">
-                    <Link to={'/'}><WorkPlaceHolder number='01' name='Project Scorpioon' date='OCTUBER2020' /></Link>
+                    <Link to={'/'}><WorkPlaceHolder number='01' name='EricSiera Portfolio' date='OCTUBER2020' /></Link>
                     </div>
                     <hr />
 
@@ -44,7 +44,7 @@ const work = ({ isVisible }) => {
                     <hr />
 
                     <div className="singleWork">
-                    <Link to={'/'}><WorkPlaceHolder number='01' name='Scorpioon' date='OCTUBER2020' /></Link>
+                    <Link to={'/'}><WorkPlaceHolder number='01' name='ContraBureal Clone' date='OCTUBER2020' /></Link>
                     </div>
                     <hr />
                 </div>
