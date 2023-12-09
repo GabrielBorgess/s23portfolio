@@ -1,5 +1,5 @@
 # s23portfolio
-## React application started with vite
+## React application created with vite
 
 Portifolio project created in early 2023, focused only on front-end technologies, the project features simple 3D elements and smooth animations. 
 
