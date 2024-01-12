@@ -1,6 +1,7 @@
 import React from 'react'
 import WorkPlaceHolder from '../../components/workPlaceHolder/workPlaceHolder';
 import CornerElement from '../../components/cornerElements/cornerElement';
+import { linkHover, leaveLinkHover } from '../../components/JSanimations/linkHoverAnimation';
 import circleCursor from '../../components/JSanimations/circleCursor';
 import './work.scss'
 
@@ -9,15 +10,13 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { motion, AnimatePresence } from "framer-motion";
 
-const work = ({ isVisible }) => {
+const work = () => {
 
     useEffect(() => {
-
         // -- ANIMATION CODE HERE --
         gsap.fromTo('.title',
             { autoAlpha: 0, y: -30 },
             { y: 0, autoAlpha: 1, duration: 1.2, delay: 0.38});
-            
             circleCursor();
     });
     
@@ -34,19 +33,23 @@ const work = ({ isVisible }) => {
                 <div className="works">
                     <hr />
                     <div className="singleWork">
-                    <Link to={'/'}><WorkPlaceHolder number='01' name='EricSiera Portfolio' date='OCTUBER2020' /></Link>
+                    <Link to={'https://spotifystatsbyborges.netlify.app/'} target='_blank'><WorkPlaceHolder number='01' name='SpotifyStats' date='DECEMBER 2023' /></Link>
                     </div>
                     <hr />
 
                     <div className="singleWork">
-                    <Link to={'/work/agora'}><WorkPlaceHolder number='01' name='Agora' date='OCTUBER2020' /></Link>
+                    <Link to={'https://github.com/GabrielBorgess/s23portfolio'} target="_blank" z   ><WorkPlaceHolder number='02' name='s23 Portifolio' date='JANUARY 2023' /></Link>
                     </div>
                     <hr />
 
                     <div className="singleWork">
-                    <Link to={'/'}><WorkPlaceHolder number='01' name='ContraBureal Clone' date='OCTUBER2020' /></Link>
+                    <Link to={'/'}><WorkPlaceHolder number='03' name='EricSierra Portifolio' date='AUGUST 2023' /></Link>
                     </div>
                     <hr />
+
+                    <div className='moreWorks'>
+                        <Link to={'https://github.com/GabrielBorgess/'} onMouseEnter={linkHover} onMouseLeave={leaveLinkHover} target='_blank'>More</Link>
+                    </div>
                 </div>
                 <CornerElement number={'01.'} name={'Work'}/>
             </motion.div>
