@@ -19,7 +19,7 @@ i18n
                 translation: {
                     presenting: {
                         1: "hi, i'm",
-                        2: 'A developer from Brasília who likes to bring beautiful stuff to life, and listen to pagode while doing it'
+                        2: 'A developer from Brasília who likes to bring beautiful stuff to life, and listen to pagode while doing it.'
                     },
                     contact: {
                         1: "let's create something amazing together! say hi",
@@ -38,7 +38,7 @@ i18n
                 translation: {
                     presenting: {
                         1: "Eai! Me chamo",
-                        2: `Um programador de Brasília que gosta de dar vida a coisas bonitas e ouvir enquanto faz isso.`
+                        2: `Um programador de Brasília que gosta de dar vida a coisas bonitas e ouvir pagode enquanto faz isso.`
                     },
                     contact: {
                         1: 'Vamos criar algo incrível juntos!',

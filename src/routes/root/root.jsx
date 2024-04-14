@@ -54,11 +54,6 @@ const root = () => {
             <Figure />
           </div>
         </div>
-        {/* <div className={`pagode__secret ${videoBg ? 'active' : 'inactive'}`}>
-          <video autoPlay loop muted>
-            <source src="../../../public/pagodinT - Compressedp.mp4" type="video/mp4"/>
-          </video>
-        </div> */}
       </motion.div>
 
     </div>

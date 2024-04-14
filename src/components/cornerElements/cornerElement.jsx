@@ -39,7 +39,7 @@ const cornerElement = (props) => {
                 </div>
             </div>
             <div className="row">
-                <div className="rowElement bottom-left">© 2023</div>
+                <div className="rowElement bottom-left">© 2024</div>
                 <div className="rowElement nav bottom-right">
                     <ul>
                         <div onMouseEnter={linkHover} onMouseLeave={leaveLinkHover}>
