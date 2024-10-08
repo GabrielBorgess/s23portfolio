@@ -38,12 +38,12 @@ const work = () => {
                     <hr />
 
                     <div className="singleWork">
-                    <Link to={'https://github.com/GabrielBorgess/s23portfolio'} target="_blank" z   ><WorkPlaceHolder number='02' name='s23 Portifolio' date='JANUARY 2023' /></Link>
+                    <Link to={'https://github.com/GabrielBorgess/s23portfolio'} target="_blank"><WorkPlaceHolder number='02' name='s23 Portifolio' date='JANUARY 2023' /></Link>
                     </div>
                     <hr />
 
                     <div className="singleWork">
-                    <Link to={'/'}><WorkPlaceHolder number='03' name='EricSierra Portifolio' date='AUGUST 2023' /></Link>
+                    <Link to={'https://github.com/GabrielBorgess/AIFaceDetection'} target="_blank"><WorkPlaceHolder number='03' name='AI Facial Detection' date='AUGUST 2023' /></Link>
                     </div>
                     <hr />
 
